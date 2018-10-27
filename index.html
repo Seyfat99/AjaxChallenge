@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="./AJAX.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <h1>AJAX Challenges</h1>
+
+    <section class="easy-challenge">
+
+        <div class="easy-challenge__content"></div>
+        <div class="easy-challenge__header">
+            <h2>Easy Challenge</h2>
+        </div>
+    </section>
+
+    <section class="medium-challenge">
+        <div class="medium-challenge__content"></div>
+        <div class="easy-challenge__header">
+            <h2>Medium Challenge</h2>
+        </div>
+    </section>
+
+    <section class="medium2-challenge">
+        <h2>Type In The City To Check Weather!</h2>
+
+        <form action="" method="GET" id="myForm">
+            <input type="text" id='userInput'>
+            <input type="submit" value="Find City" id='inputButton'>
+        </form>
+
+        <div class="medium2-challenge__content"></div>
+        <div class="easy-challenge__header">
+            <h2>Medium-2 Challenge</h2>
+        </div>
+    </section>
+
+    <section class="hard-challenge">
+        <h2>When Will The International Space Station Pass?</h2>
+        <div class="hard-challenge__input-wrap">
+            <form action="" method="GET" id="hardForm">
+                <div>
+                    <label for="inputOne">Enter Latitude</label>
+                    <input type="text" id='inputOne' class="hard-challenge__input">
+                </div>
+
+                <div>
+                    <label for="inputTwo">Enter Longitude</label>
+                    <input type="text" id='inputTwo' class="hard-challenge__input">
+                </div>
+                <button type="submit" class="formSubmitBtn">Enter</button>
+
+            </form>
+
+            <button id='geoBtn' onclick="getGeoLocation()">My Location</button>
+        </div>
+
+        <div class="hard-challenge__content"></div>
+        <div class="easy-challenge__header">
+            <h2>Hard Challenge</h2>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./AJAX.js"></script>
+</body>
+
+</html>

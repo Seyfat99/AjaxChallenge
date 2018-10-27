@@ -1,0 +1,130 @@
+body {
+  background-image: linear-gradient(
+    -225deg,
+    rgb(44, 216, 213) 0%,
+    rgb(107, 141, 214) 48%,
+    rgb(142, 55, 215) 100%
+  );
+  display: flex;
+  width: 1300px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  font: 40px "Quicksand";
+  text-align: center;
+  width: 1250px;
+  padding: 25px 0;
+  background: #003366;
+  margin: 0 auto 10px;
+  text-transform: uppercase;
+}
+h2 {
+  padding: 10px 0;
+  font: 30px "Quicksand";
+  text-align: center;
+}
+p {
+  padding: 0 5px;
+  font: 16px "Quicksand";
+  text-align: center;
+}
+section {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: white;
+  margin: 13px auto;
+}
+.easy-challenge__header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #003366;
+  padding: 50px 0;
+  margin-top: auto;
+}
+.easy-challenge__header h2 {
+  margin: 0;
+  color: white;
+  font: 25px "Quicksand";
+  text-align: center;
+}
+.medium2-challenge__content h2 {
+  margin: 10px 0;
+}
+#myForm {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+#myForm #inputButton {
+  font: 400 18px "Quicksand";
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+  background: #0b93ee;
+  width: 150px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+#myForm #userInput {
+  font: 400 18px "Quicksand";
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f8f8f8;
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+}
+.medium2-challenge__content h2 {
+  padding: 0px;
+}
+#hardForm {
+  display: flex;
+  width: 430px;
+}
+#hardForm div {
+  width: 160px;
+}
+label {
+  display: block;
+  font: 400 14px "Quicksand";
+}
+.hard-challenge__input-wrap {
+  display: flex;
+  width: 580px;
+  margin: 0 auto;
+}
+
+.hard-challenge .formSubmitBtn {
+  font: 400 18px "Quicksand";
+  border-radius: 50px;
+  height: 30px;
+  color: white;
+  background: #0b93ee;
+  width: 100px;
+  cursor: pointer;
+  margin-top: auto;
+}
+.hard-challenge__input {
+  font: 400 18px "Quicksand";
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f8f8f8;
+  height: 20px;
+  width: 150px;
+  margin: 0 auto;
+}
+.hard-challenge #geoBtn {
+  font: 400 18px "Quicksand";
+  border-radius: 50px;
+  height: 30px;
+  color: white;
+  background: #0b93ee;
+  width: 150px;
+  cursor: pointer;
+  margin-top: auto;
+}
