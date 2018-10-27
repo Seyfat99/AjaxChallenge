@@ -2,7 +2,7 @@
 Hello = () => {
   $.ajax({
     method: "GET",
-    url: "http://api.open-notify.org/astros.json",
+    url: "https://api.open-notify.org/astros.json",
     dataType: "json"
   }).done(outputInfo);
 };
@@ -84,7 +84,7 @@ hardForm.addEventListener("submit", e => {
 });
 
 function Location(one, two) {
-  let url = `http://api.open-notify.org/iss-pass.json?lat=${one}&lon=${two}`;
+  let url = `https://api.open-notify.org/iss-pass.json?lat=${one}&lon=${two}`;
   fetch(url)
     .then(response => response.json())
     .then(json => {
